@@ -10,6 +10,8 @@ var userGivenName = "";
       //let _username = document.getElementById('username');
       // Change the content of the element
       //_username.innerHTML = name;
+
+      //Ask user for name until name is provided. Assign provided name to tag
       while(userGivenName.length == 0){
         userGivenName = window.prompt("Please enter your username:");
       }
