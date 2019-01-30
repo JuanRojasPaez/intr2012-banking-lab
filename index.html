@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GBC Bank</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="logo">GBCB</div>
+      <h1>GBC Bank</h1>
+      <div class="greeting">Hello, <span id="username"></span></div>
+    </header>
+
+    <main>
+      <h2>Complete a Transaction</h2>
+      <form>
+        <input type="text" name="amount" value="0" id="amount">
+        <button type="button" name="button" id="process">Process</button>
+      </form>
+
+      <section>
+        <h2>Account Info</h2>
+        <div>Your balance is: $ <span id="balance"></span></div>
+      </section>
+
+      <section>
+        <h2>Transaction History</h2>
+        <ul id="history">
+          <!-- <li>You deposited $50.</li> -->
+        </ul>
+      </section>
+    </main>
+
+    <script src="js/main.js" charset="utf-8" defer></script>
+  </body>
+</html>
